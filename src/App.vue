@@ -1,6 +1,6 @@
 <template>
   <div>
-    <the-header></the-header>
+    <TheHeader></TheHeader>
     <badge-list></badge-list>
     <user-info
       :full-name="activeUser.name"

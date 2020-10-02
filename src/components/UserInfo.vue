@@ -1,11 +1,9 @@
 <template>
   <section>
-    <base-card>
-      <header>
-        <h3>{{ fullName }}</h3>
-        <base-badge :type="role" :caption="role.toUpperCase()"></base-badge>
-      </header>
-    </base-card>
+    <header>
+      <h3>{{ fullName }}</h3>
+      <base-badge :type="role" :caption="role.toUpperCase()"></base-badge>
+    </header>
     <p>{{ infoText }}</p>
   </section>
 </template>
